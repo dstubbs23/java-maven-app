@@ -9,7 +9,7 @@ library identifier: 'jenkins-shared-library@master', retriever: modernSCM(
 
 pipeline {
     agent any
-    tolls {
+    tools {
         maven 'maven-3.9'
     }
     environment {
